@@ -7,6 +7,15 @@ rm -rf /etc/freeswitch/dialplan/*
 sed -i -e 's/.*<X-PRE-PROCESS cmd="set" data="default_password=1234"\/>.*/<X-PRE-PROCESS cmd="set" data="default_password=$${FS_DEFAULT_PASSWORD}"\/>/g' /etc/freeswitch/vars.xml
 #configure aws IP (will be "" if not in aws)
 sed -i '1 a <X-PRE-PROCESS cmd="exec-set" data="external_aws_ip=curl -s http://169.254.169.254/latest/meta-data/public-ipv4"/>' /etc/freeswitch/vars.xml
+#configure global codecs
+sed -i -e 's/.*<X-PRE-PROCESS cmd="set" data="global_codec_prefs=.*/<X-PRE-PROCESS cmd="set" data="global_codec_prefs=$${FS_GLOBAL_CODEC}"\/>/g' /etc/freeswitch/vars.xml
+sed -i -e 's/.*<X-PRE-PROCESS cmd="set" data="outbound_codec_prefs=.*/<X-PRE-PROCESS cmd="set" data="outbound_codec_prefs=$${FS_OUTBOUND_CODEC}"\/>/g' /etc/freeswitch/vars.xml
+#add user-agent 
+sed -i '1 a <X-PRE-PROCESS cmd="set" data="user_agent_string=NXCloudAS/1.0" />' /etc/freeswitch/vars.xml
+#add recording dir 
+sed -i '1 a <X-PRE-PROCESS cmd="set" data="recordings_dir=$${FS_RECORDINGS_DIR}}" /> ' /etc/freeswitch/vars.xml
+
+
 #add vars include dir
 sed -i '1 a <X-PRE-PROCESS cmd="include" data="envVars/*.xml"/>' /etc/freeswitch/vars.xml
 mkdir /etc/freeswitch/envVars

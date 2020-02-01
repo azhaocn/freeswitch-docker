@@ -1,0 +1,1408 @@
+<configuration name="callcenter.conf" description="CallCenter">
+  <settings></settings>
+  <queues>
+    <queue name="support1000@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1001@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1002@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1003@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1004@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1005@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1006@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1007@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1008@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1009@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1010@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1011@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1012@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1013@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1014@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1015@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1016@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1017@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1018@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1019@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1020@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1021@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1022@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1023@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1024@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1025@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1026@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1027@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1028@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1029@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1030@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1031@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1032@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1033@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1034@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1035@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1036@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1037@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1038@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1039@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1040@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1041@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1042@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1043@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1044@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1045@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1046@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1047@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1048@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1049@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1050@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1051@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1052@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1053@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1054@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1055@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1056@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1057@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1058@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1059@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1060@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1061@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1062@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1063@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1064@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1065@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1066@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1067@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1068@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1069@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1070@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1071@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1072@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1073@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1074@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1075@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1076@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1077@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1078@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1079@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1080@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1081@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1082@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1083@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1084@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1085@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1086@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1087@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1088@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1089@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1090@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1091@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1092@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1093@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1094@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1095@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1096@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1097@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1098@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+    <queue name="support1099@default">
+      <param name="strategy" value="longest-idle-agent" />
+      <param name="moh-sound" value="$${hold_music}" />
+      <param name="time-base-score" value="system" />
+      <param name="max-wait-time" value="0" />
+      <param name="max-wait-time-with-no-agent" value="0" />
+      <param name="max-wait-time-with-no-agent-time-reached" value="5" />
+      <param name="tier-rules-apply" value="false" />
+      <param name="tier-rule-wait-second" value="300" />
+      <param name="tier-rule-wait-multiply-level" value="true" />
+      <param name="tier-rule-no-agent-no-wait" value="false" />
+      <param name="discard-abandoned-after" value="60" />
+      <param name="abandoned-resume-allowed" value="false" />
+    </queue>
+  </queues>
+  <agents></agents>
+  <tiers></tiers>
+</configuration>
+

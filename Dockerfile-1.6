@@ -25,13 +25,29 @@ COPY configs/updatefs.sh /
 RUN /updatefs.sh
 RUN rm /updatefs.sh
 
+#add bcg729 lib
+COPY modules/mod_bcg729.so /usr/lib/freeswitch/mod/
+
 #add generic profile
-COPY configs/sip-profile.xml /etc/freeswitch/sip_profiles/
+COPY configs/sip-internal.xml /etc/freeswitch/sip_profiles/
+COPY configs/sip-external.xml /etc/freeswitch/sip_profiles/
+
 #add generic config
-COPY configs/sip-dialplan.xml /etc/freeswitch/dialplan/
+#COPY configs/sip-dialplan.xml /etc/freeswitch/dialplan/
 #add generic conference config
-COPY configs/conference.conf.xml /etc/freeswitch/autoload_configs/
-COPY configs/json_cdr.conf.xml /etc/freeswitch/autoload_configs/
+COPY configs/modules.conf.xml /etc/freeswitch/autoload_configs/
+COPY configs/xml_curl.conf.xml /etc/freeswitch/autoload_configs/
+COPY configs/xml_cdr.conf.xml /etc/freeswitch/autoload_configs/
+#COPY configs/json_cdr.conf.xml /etc/freeswitch/autoload_configs/
+
+#add customer script
+COPY scripts/conv.lua /usr/share/freeswitch/scripts/
+
+#add customer audio
+COPY audios/echotesting.wav /usr/share/freeswitch/sounds/en/us/callie
+COPY audios/62_arrears.wav /usr/share/freeswitch/sounds/en/us/callie
+COPY audios/86_arrears.wav /usr/share/freeswitch/sounds/en/us/callie
+
 #add run.sh
 COPY run.sh /
 RUN touch /env.sh

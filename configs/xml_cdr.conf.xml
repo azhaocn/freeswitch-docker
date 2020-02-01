@@ -1,0 +1,10 @@
+<configuration name="xml_cdr.conf" description="XML CDR CURL logger">
+  <settings>
+    <param name="log-dir" value="" />
+    <param name="log-b-leg" value="true" />
+    <param name="prefix-a-leg" value="true" />
+    <param name="encode" value="true" />
+    <param name="url" value="http://$${FS_CDR_IP}:$${FS_CDR_PORT}/Api/Fs/cdr" />
+  </settings>
+</configuration>
+

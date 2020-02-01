@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<profile name="external">
+  <gateways>
+    <gateway name="gw_glory">
+      <param name="proxy" value="$${GW_GLORY_IP}:$${GW_GLORY_PORT}"/>
+      <param name="realm" value="$${GW_GLORY_IP}"/>
+      <param name="register" value="false"/>
+      <param name="rtp-ip" value="$${local_ip_v4}"/>
+      <param name="sip-ip" value="$${local_ip_v4}"/>
+      <param name="caller-id-in-from" value="true"/>
+      <param name="extension" value="auto_to_user"/>
+      <param name="inbound-bypass-media" value="true"/>
+    </gateway>
+    <gateway name="gw_glory_test">
+      <param name="proxy" value="$${GW_TEST_IP}:$${GW_TEST_PORT}"/>
+      <param name="realm" value="$${GW_TEST_IP}"/>
+      <param name="register" value="false"/>
+      <param name="rtp-ip" value="$${local_ip_v4}"/>
+      <param name="sip-ip" value="$${local_ip_v4}"/>
+      <param name="caller-id-in-from" value="true"/>
+      <param name="extension" value="auto_to_user"/>
+      <param name="inbound-bypass-media" value="true"/>
+    </gateway>
+  </gateways>
+  <aliases>
+  </aliases>
+  <domains>
+    <domain name="all" alias="false" parse="true"/>
+  </domains>
+  <settings>
+    <param name="debug" value="0"/>
+    <param name="shutdown-on-fail" value="true"/>
+    <param name="sip-trace" value="yes"/>
+    <param name="sip-capture" value="$${FS_SIP_CAPTURE}"/>
+    <param name="rfc2833-pt" value="101"/>
+    <param name="sip-port" value="$${FS_EXTERNAL_SIP_PORT}"/>
+    <param name="dialplan" value="XML"/>
+    <param name="context" value="public"/>
+    <param name="dtmf-duration" value="2000"/>
+    <param name="rtp-timer-name" value="soft"/>
+    <param name="local-network-acl" value="localnet.auto"/>
+    <param name="manage-presence" value="false"/>
+    <param name="inbound-codec-prefs" value="$${global_codec_prefs}"/>
+    <param name="outbound-codec-prefs" value="$${global_codec_prefs}"/>
+    <param name="nonce-ttl" value="60"/>
+    <param name="auth-calls" value="false"/>
+    <param name="disable-transcoding" value="false"/>
+    <param name="inbound-late-negotiation" value="true"/>
+    <param name="inbound-zrtp-passthru" value="false"/>
+    <param name="rtp-ip" value="$${local_ip_v4}"/>
+    <param name="sip-ip" value="$${local_ip_v4}"/>
+    <param name="ext-rtp-ip" value="auto-nat"/>
+    <param name="ext-sip-ip" value="auto-nat"/>
+    <param name="rtp-timeout-sec" value="30"/>
+    <param name="rtp-hold-timeout-sec" value="1800"/>
+    <param name="tls" value="$${external_ssl_enable}"/>
+    <param name="tls-only" value="false"/>
+    <param name="tls-bind-params" value="transport=tls"/>
+    <param name="tls-sip-port" value="$${external_tls_port}"/>
+    <param name="tls-passphrase" value=""/>
+    <param name="tls-verify-date" value="true"/>
+    <param name="tls-verify-policy" value="none"/>
+    <param name="tls-verify-depth" value="2"/>
+    <param name="tls-verify-in-subjects" value=""/>
+    <param name="tls-version" value="$${sip_tls_version}"/>
+  </settings>
+</profile>
